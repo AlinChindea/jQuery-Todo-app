@@ -1,0 +1,5 @@
+$(() => {
+  console.log('jQuery loaded');
+
+
+});
