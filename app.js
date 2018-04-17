@@ -21,12 +21,11 @@ $(() => {
       const $newTodo = $(this).val();
       $(this).val('');
       //create a new li and add add to ul
-      $ul.append(`<li><span>X</span> ${$newTodo}</li>`);
+      $ul.append(`<li><span><i class="fa fa-trash"></i></span> ${$newTodo}</li>`);
     }
-
   });
 
-
-
-
+  $('.fa-plus').click(function(){
+    $userInput.fadeToggle(100);
+  });
 });
