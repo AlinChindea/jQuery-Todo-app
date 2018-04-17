@@ -26,6 +26,6 @@ $(() => {
   });
 
   $('.fa-plus').click(function(){
-    $userInput.fadeToggle(100);
+    $userInput.fadeToggle('slow', 'linear');
   });
 });
